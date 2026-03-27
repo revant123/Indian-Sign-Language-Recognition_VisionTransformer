@@ -64,7 +64,7 @@ This project uses the Vision Transformer (ViT) architecture.
 
 1. Clone the repository
 
-git clone https://github.com/your-username/hand-sign-recognition-vit.git
+git clone https://github.com/revant123/hand-sign-recognition-vit.git
 cd hand-sign-recognition-vit
 
 ```
