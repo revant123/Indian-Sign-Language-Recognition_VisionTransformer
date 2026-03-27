@@ -67,13 +67,104 @@ This project uses the Vision Transformer (ViT) architecture.
 git clone https://github.com/revant123/hand-sign-recognition-vit.git
 cd hand-sign-recognition-vit
 
-```
+
 
 2. Install dependencies
 
-pip install -r requirements.txt
+## ⚙️ Installation
+
+Follow these steps to set up the project on your system.
+
+🔹 1. Clone the Repository
+
+```bash
+git clone https://github.com/revant123/hand-sign-recognition-vit.git
+cd hand-sign-recognition-vit
 
 ---
+
+### 🔹 2. Create Virtual Environment (Recommended)
+
+It is recommended to use a virtual environment to avoid dependency conflicts.
+
+#### For Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+#### For Linux / Mac:
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 🔹 3. Install Dependencies
+
+Install all required libraries using:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 🔹 4. Verify Installation
+
+To ensure everything is installed correctly, run:
+
+```bash
+python -c "import torch; print(torch.__version__)"
+```
+
+If no errors appear, setup is successful ✅
+
+---
+
+### 🔹 5. (Optional) Install GPU Support
+
+If you have a GPU, install CUDA-enabled PyTorch for faster training.
+
+Visit:
+https://pytorch.org/get-started/locally/
+
+---
+
+### 🔹 6. Common Dependencies Used
+
+Below are some major libraries required for this project:
+
+* torch / tensorflow (for deep learning)
+* torchvision (for image processing)
+* opencv-python (for real-time detection)
+* numpy (for numerical operations)
+* matplotlib (for visualization)
+
+---
+
+### ⚠️ Troubleshooting
+
+* If `pip install` fails, try:
+
+```bash
+pip install --upgrade pip
+
+* If using Python 3.12+, ensure compatibility with libraries
+
+* If facing permission issues:
+
+```bash
+pip install --user -r requirements.txt
+
+
+### ✅ Setup Complete
+
+You are now ready to train and run the model 🚀
+
 
 ▶️ Usage
 
